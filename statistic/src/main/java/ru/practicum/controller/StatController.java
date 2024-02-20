@@ -16,4 +16,6 @@ public class StatController {
     public String getHello() {
         return "Hello!";
     }
+
+
 }
