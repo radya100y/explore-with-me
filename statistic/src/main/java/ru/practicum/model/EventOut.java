@@ -1,10 +1,12 @@
 package ru.practicum.model;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 import java.time.LocalDateTime;
 
 @AllArgsConstructor
+@Getter
 public class EventOut {
 
     private long id;
