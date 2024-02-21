@@ -28,4 +28,9 @@ public class StatController {
     public EventOut save(@Valid @RequestBody EventIn eventIn) {
         return eventService.save(eventIn);
     }
+
+    @GetMapping("/{id}")
+    public EventOut getById(@PathVariable("id") long id) {
+        return eventService.getById(id);
+    }
 }
