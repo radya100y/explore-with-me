@@ -19,7 +19,7 @@ public class StatController {
     @Autowired
     private final EventService eventService;
 
-    @GetMapping
+    @GetMapping("/hello")
     public String getHello() {
         return "Hello!";
     }
