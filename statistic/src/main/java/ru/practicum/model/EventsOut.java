@@ -13,5 +13,5 @@ public class EventsOut {
 
     private String uri;
 
-    private String hits;
+    private Long hits;
 }
